@@ -10,5 +10,5 @@ preprocess()
 model.summary()
 
 # Train the model
-epochs = 1
+epochs = 10
 history = model.fit(train_ds, validation_data=test_ds, epochs=epochs)
